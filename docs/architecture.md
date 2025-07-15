@@ -5,7 +5,7 @@ This document details the architectural design of the multi-agent system, focusi
 ## 1. High-Level Overview
 
 The system operates on a client-server model, where a central `client.py` application acts as an intelligent agent. This agent does not directly implement tools but rather discovers and utilizes tools exposed by independent "tool servers." The communication between the client and these servers is managed by the Multi-Server Communication Protocol (MCP).
-
+```bash
 +-------------------+       +-------------------+
 |                   |       |                   |
 |   Client (Agent)  |<----->|   MCP Servers     |
@@ -21,7 +21,7 @@ v                           v
 |   LLM (Groq)      |       |   External APIs   |
 |                   |       |   (OpenWeatherMap)|
 +-------------------+       +-------------------+
-
+```
 
 ## 2. Key Components
 
