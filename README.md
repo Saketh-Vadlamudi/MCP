@@ -16,7 +16,7 @@ A multi-agent system demonstrating dynamic tool discovery and execution using La
 * **Error Handling**: Includes basic error handling for API key issues and invalid city queries.
 
 ## Project Structure
-
+```bash
 multi-agent-mcp-project/
 ├── .gitignore                 # Files to be ignored by Git
 ├── client.py                  # The main agent application that orchestrates tools
@@ -24,7 +24,7 @@ multi-agent-mcp-project/
 ├── requirements.txt           # Python dependencies 
 ├── README.md                  # Project overview, setup, usage
 └── weather.py                 # MCP server for fetching weather data 
-
+```
 
 ## Installation
 
