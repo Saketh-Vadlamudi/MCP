@@ -18,24 +18,10 @@ A multi-agent system demonstrating dynamic tool discovery and execution using La
 ## Project Structure
 
 multi-agent-mcp-project/
-├── .github/
-│   └── workflows/
-│       └── main.yml           # CI/CD pipeline for testing and linting
-├── docs/                      # Optional: For detailed documentation
-│   └── architecture.md
-├── tests/
-│   ├── init.py
-│   ├── test_mathserver.py
-│   ├── test_weather.py
-│   └── test_client.py
-├── .env.example               # Template for environment variables
 ├── .gitignore                 # Files to be ignored by Git
 ├── client.py                  # The main agent application that orchestrates tools
-├── https://www.google.com/search?q=LICENSE                    # Project license (e.g., MIT)
 ├── mathserver.py              # MCP server for mathematical operations
 ├── requirements.txt           # Python dependencies 
-
-
 ├── README.md                  # Project overview, setup, usage
 └── weather.py                 # MCP server for fetching weather data 
 
