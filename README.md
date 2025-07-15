@@ -18,6 +18,8 @@ A multi-agent system demonstrating dynamic tool discovery and execution using La
 ## Project Structure
 ```bash
 multi-agent-mcp-project/
+├── docs/                      
+│   └── architecture.md
 ├── .gitignore                 # Files to be ignored by Git
 ├── client.py                  # The main agent application that orchestrates tools
 ├── mathserver.py              # MCP server for mathematical operations
